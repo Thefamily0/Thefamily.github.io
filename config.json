@@ -1,0 +1,14 @@
+{
+  "params":
+  {
+   "local_server": "True",
+    "local_uri": "mysql://root:@localhost/thefamily",
+    "prod_uri": "mysql://root:@localhost/thefamily",
+    "fb_url": "https://facebook.com/codingthunder",
+    "tw_url": "https://twitter.com/PatelPa25351840",
+    "gh_url": "https://github.com/codingthunder",
+    "gmail-user": "thefamily.mail007@gmail.com",
+    "gmail-password": "Arjun72566"
+  }
+
+}

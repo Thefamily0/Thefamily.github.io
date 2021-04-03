@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='./css/aboutstyle.css') }}">
+
+    <!-- Googlefont -->
+    <link rel="preconnect" href="{{ url_for('static', filename='https://fonts.gstatic.com') }}">
+    <link href="{{ url_for('static', filename='https://fonts.googleapis.com/css2?family=Anaheim&display=swap') }}" rel="stylesheet">
+
+</head>
+<body>
+       
+    <div class="about-section">
+        <style>
+            .about-section {
+                background: url(../static/assets/about-us.jpg) no-repeat left;
+                background-size: 55%;
+                background-color: #fdfdfd;
+                overflow: hidden;
+                padding: 100px 0;
+                align-items: center;
+            }
+
+            @media screen and (max-width:1000px) {
+                .about-section {
+                    background-size: 100%;
+                    padding: 100px 40px;
+                }
+            }
+
+            @media screen and (max-width:600px) {
+                .about-section {
+                    background-size: cover;
+                    padding: 0;
+                }
+            }
+        </style>
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium laboriosam modi, nisi accusantium reiciendis iusto ullam excepturi. Iusto veritatis amet labore eligendi nisi odit a, error quo in blanditiis obcaecati natus, repellat ex vel impedit officiis officia modi nostrum corporis facere! Incidunt natus, quisquam soluta cum earum veniam id corrupti!
+            </p>
+            <div class="skills">
+                <span>Web Development</span>
+                <span>Photoshop</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
